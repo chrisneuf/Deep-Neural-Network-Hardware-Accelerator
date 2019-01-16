@@ -1,0 +1,16 @@
+transcript
+c5_pin_model_dump.txt
+*.mti
+*.mpf
+*.wlf
+*.qdb
+*.qpg
+*.qtl
+*.qsf
+*.qpf
+*.bak
+*.o
+work/
+db/
+incremental_db/
+output_files/

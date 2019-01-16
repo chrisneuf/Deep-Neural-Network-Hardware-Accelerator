@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <systemtable filter="All Interfaces">
+  <columns>
+   <connections preferredWidth="207" />
+   <irq preferredWidth="34" />
+  </columns>
+ </systemtable>
+ <library expandedCategories="Project,Library" />
+ <window width="1938" height="1048" x="-9" y="-9" />
+ <generation
+   simulation="VERILOG"
+   path="C:/Users/neufe/workspace/cpen311/lab-6-chrisneuf/_PROJECT_NAME_" />
+</preferences>

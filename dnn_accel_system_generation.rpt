@@ -1,0 +1,237 @@
+Info: Starting: Create simulation model
+Info: qsys-generate C:\intelFPGA_lite\17.1\dnn_accel_system.qsys --simulation=VERILOG --allow-mixed-language-simulation --output-directory=C:\Users\neufe\workspace\cpen311\lab-6-chrisneuf\simulation --family="Cyclone V" --part=5CSEMA5F31C6
+Progress: Loading 17.1/dnn_accel_system.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 17.1]
+Progress: Parameterizing module clk_0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 17.1]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding new_sdram_controller_0 [altera_avalon_new_sdram_controller 17.1]
+Progress: Parameterizing module new_sdram_controller_0
+Progress: Adding nios2_gen2_0 [altera_nios2_gen2 17.1]
+Progress: Parameterizing module nios2_gen2_0
+Progress: Adding pio_0 [altera_avalon_pio 17.1]
+Progress: Parameterizing module pio_0
+Progress: Adding pll_0 [altera_pll 17.1]
+Progress: Parameterizing module pll_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: dnn_accel_system.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: dnn_accel_system.new_sdram_controller_0: SDRAM Controller will only be supported in Quartus Prime Standard Edition in the future release.
+Info: dnn_accel_system.pll_0: The legal reference clock frequency is 5.0 MHz..800.0 MHz
+Info: dnn_accel_system.pll_0: Able to implement PLL with user settings
+Info: dnn_accel_system: Generating dnn_accel_system "dnn_accel_system" for SIM_VERILOG
+Info: jtag_uart_0: Starting RTL generation for module 'dnn_accel_system_jtag_uart_0'
+Info: jtag_uart_0:   Generation command is [exec C:/intelfpga_lite/17.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/17.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/17.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/intelfpga_lite/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=dnn_accel_system_jtag_uart_0 --dir=C:/Users/neufe/AppData/Local/Temp/alt7859_5445016058193078361.dir/0002_jtag_uart_0_gen/ --quartus_dir=C:/intelfpga_lite/17.1/quartus --verilog --config=C:/Users/neufe/AppData/Local/Temp/alt7859_5445016058193078361.dir/0002_jtag_uart_0_gen//dnn_accel_system_jtag_uart_0_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/neufe/AppData/Local/Temp/alt7859_5445016058193078361.dir/0002_jtag_uart_0_gen/  ]
+Info: jtag_uart_0: Done RTL generation for module 'dnn_accel_system_jtag_uart_0'
+Info: jtag_uart_0: "dnn_accel_system" instantiated altera_avalon_jtag_uart "jtag_uart_0"
+Info: new_sdram_controller_0: Starting RTL generation for module 'dnn_accel_system_new_sdram_controller_0'
+Info: new_sdram_controller_0:   Generation command is [exec C:/intelfpga_lite/17.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/17.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/17.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller -- C:/intelfpga_lite/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller/generate_rtl.pl --name=dnn_accel_system_new_sdram_controller_0 --dir=C:/Users/neufe/AppData/Local/Temp/alt7859_5445016058193078361.dir/0003_new_sdram_controller_0_gen/ --quartus_dir=C:/intelfpga_lite/17.1/quartus --verilog --config=C:/Users/neufe/AppData/Local/Temp/alt7859_5445016058193078361.dir/0003_new_sdram_controller_0_gen//dnn_accel_system_new_sdram_controller_0_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/neufe/AppData/Local/Temp/alt7859_5445016058193078361.dir/0003_new_sdram_controller_0_gen/  ]
+Info: new_sdram_controller_0: Done RTL generation for module 'dnn_accel_system_new_sdram_controller_0'
+Info: new_sdram_controller_0: "dnn_accel_system" instantiated altera_avalon_new_sdram_controller "new_sdram_controller_0"
+Info: nios2_gen2_0: "dnn_accel_system" instantiated altera_nios2_gen2 "nios2_gen2_0"
+Info: pio_0: Starting RTL generation for module 'dnn_accel_system_pio_0'
+Info: pio_0:   Generation command is [exec C:/intelfpga_lite/17.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/17.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/17.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=dnn_accel_system_pio_0 --dir=C:/Users/neufe/AppData/Local/Temp/alt7859_5445016058193078361.dir/0004_pio_0_gen/ --quartus_dir=C:/intelfpga_lite/17.1/quartus --verilog --config=C:/Users/neufe/AppData/Local/Temp/alt7859_5445016058193078361.dir/0004_pio_0_gen//dnn_accel_system_pio_0_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/neufe/AppData/Local/Temp/alt7859_5445016058193078361.dir/0004_pio_0_gen/  ]
+Info: pio_0: Done RTL generation for module 'dnn_accel_system_pio_0'
+Info: pio_0: "dnn_accel_system" instantiated altera_avalon_pio "pio_0"
+Info: pll_0: Generating simgen model
+Info: pll_0: Info: ******************************************************************* Info: Running Quartus Prime Shell     Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition     Info: Copyright (C) 2017  Intel Corporation. All rights reserved.     Info: Your use of Intel Corporation's design tools, logic functions      Info: and other software and tools, and its AMPP partner logic      Info: functions, and any output files from any of the foregoing      Info: (including device programming or simulation files), and any      Info: associated documentation or information are expressly subject      Info: to the terms and conditions of the Intel Program License      Info: Subscription Agreement, the Intel Quartus Prime License Agreement,     Info: the Intel FPGA IP License Agreement, or other applicable license     Info: agreement, including, without limitation, that your use is for     Info: the sole purpose of programming logic devices manufactured by     Info: Intel and sold by Intel or its authorized distributors.  Please     Info: refer to the applicable agreement for further details.     Info: Processing started: Sat Nov 24 18:55:10 2018 Info: Command: quartus_sh -t run_simgen_cmd.tcl Info: ******************************************************************* Info: Running Quartus Prime Analysis & Synthesis     Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition     Info: Copyright (C) 2017  Intel Corporation. All rights reserved.     Info: Your use of Intel Corporation's design tools, logic functions      Info: and other software and tools, and its AMPP partner logic      Info: functions, and any output files from any of the foregoing      Info: (including device programming or simulation files), and any      Info: associated documentation or information are expressly subject      Info: to the terms and conditions of the Intel Program License      Info: Subscription Agreement, the Intel Quartus Prime License Agreement,     Info: the Intel FPGA IP License Agreement, or other applicable license     Info: agreement, including, without limitation, that your use is for     Info: the sole purpose of programming logic devices manufactured by     Info: Intel and sold by Intel or its authorized distributors.  Please     Info: refer to the applicable agreement for further details.     Info: Processing started: Sat Nov 24 18:55:11 2018 Info: Command: quartus_map dnn_accel_system_pll_0.qpf --simgen --ini=disable_check_quartus_compatibility_qsys_only=on --simgen_parameter=CBX_HDL_LANGUAGE=VERILOG Info (20034): Auto device selection is not supported for Cyclone V device family. The default device, 5CGXFC7C7F23C8, is set. Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance. Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected Info (12021): Found 1 design units, including 1 entities, in source file dnn_accel_system_pll_0.v     Info (12023): Found entity 1: dnn_accel_system_pll_0 File: C:/Users/neufe/AppData/Local/Temp/alt7859_5445016058193078361.dir/0005_pll_0_gen/dnn_accel_system_pll_0.v Line: 2 Info (12127): Elaborating entity "dnn_accel_system_pll_0" for the top level hierarchy Info (12128): Elaborating entity "altera_pll" for hierarchy "altera_pll:altera_pll_i" File: C:/Users/neufe/AppData/Local/Temp/alt7859_5445016058193078361.dir/0005_pll_0_gen/dnn_accel_system_pll_0.v Line: 88 Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "wire_to_nowhere_64" into its bus Info (12130): Elaborated megafunction instantiation "altera_pll:altera_pll_i" File: C:/Users/neufe/AppData/Local/Temp/alt7859_5445016058193078361.dir/0005_pll_0_gen/dnn_accel_system_pll_0.v Line: 88 Info (12133): Instantiated megafunction "altera_pll:altera_pll_i" with the following parameter: File: C:/Users/neufe/AppData/Local/Temp/alt7859_5445016058193078361.dir/0005_pll_0_gen/dnn_accel_system_pll_0.v Line: 88     Info (12134): Parameter "fractional_vco_multiplier" = "false"     Info (12134): Parameter "reference_clock_frequency" = "50.0 MHz"     Info (12134): Parameter "operation_mode" = "direct"     Info (12134): Parameter "number_of_clocks" = "2"     Info (12134): Parameter "output_clock_frequency0" = "50.000000 MHz"     Info (12134): Parameter "phase_shift0" = "0 ps"     Info (12134): Parameter "duty_cycle0" = "50"     Info (12134): Parameter "output_clock_frequency1" = "50.000000 MHz"     Info (12134): Parameter "phase_shift1" = "-3000 ps"     Info (12134): Parameter "duty_cycle1" = "50"     Info (12134): Parameter "output_clock_frequency2" = "0 MHz"     Info (12134): Parameter "phase_shift2" = "0 ps"     Info (12134): Parameter "duty_cycle2" = "50"     Info (12134): Parameter "output_clock_frequency3" = "0 MHz"     Info (12134): Parameter "phase_shift3" = "0 ps"     Info (12134): Parameter "duty_cycle3" = "50"     Info (12134): Parameter "output_clock_frequency4" = "0 MHz"     Info (12134): Parameter "phase_shift4" = "0 ps"     Info (12134): Parameter "duty_cycle4" = "50"     Info (12134): Parameter "output_clock_frequency5" = "0 MHz"     Info (12134): Parameter "phase_shift5" = "0 ps"     Info (12134): Parameter "duty_cycle5" = "50"     Info (12134): Parameter "output_clock_frequency6" = "0 MHz"     Info (12134): Parameter "phase_shift6" = "0 ps"     Info (12134): Parameter "duty_cycle6" = "50"     Info (12134): Parameter "output_clock_frequency7" = "0 MHz"     Info (12134): Parameter "phase_shift7" = "0 ps"     Info (12134): Parameter "duty_cycle7" = "50"     Info (12134): Parameter "output_clock_frequency8" = "0 MHz"     Info (12134): Parameter "phase_shift8" = "0 ps"     Info (12134): Parameter "duty_cycle8" = "50"     Info (12134): Parameter "output_clock_frequency9" = "0 MHz"     Info (12134): Parameter "phase_shift9" = "0 ps"     Info (12134): Parameter "duty_cycle9" = "50"     Info (12134): Parameter "output_clock_frequency10" = "0 MHz"     Info (12134): Parameter "phase_shift10" = "0 ps"     Info (12134): Parameter "duty_cycle10" = "50"     Info (12134): Parameter "output_clock_frequency11" = "0 MHz"     Info (12134): Parameter "phase_shift11" = "0 ps"     Info (12134): Parameter "duty_cycle11" = "50"     Info (12134): Parameter "output_clock_frequency12" = "0 MHz"     Info (12134): Parameter "phase_shift12" = "0 ps"     Info (12134): Parameter "duty_cycle12" = "50"     Info (12134): Parameter "output_clock_frequency13" = "0 MHz"     Info (12134): Parameter "phase_shift13" = "0 ps"     Info (12134): Parameter "duty_cycle13" = "50"     Info (12134): Parameter "output_clock_frequency14" = "0 MHz"     Info (12134): Parameter "phase_shift14" = "0 ps"     Info (12134): Parameter "duty_cycle14" = "50"     Info (12134): Parameter "output_clock_frequency15" = "0 MHz"     Info (12134): Parameter "phase_shift15" = "0 ps"     Info (12134): Parameter "duty_cycle15" = "50"     Info (12134): Parameter "output_clock_frequency16" = "0 MHz"     Info (12134): Parameter "phase_shift16" = "0 ps"     Info (12134): Parameter "duty_cycle16" = "50"     Info (12134): Parameter "output_clock_frequency17" = "0 MHz"     Info (12134): Parameter "phase_shift17" = "0 ps"     Info (12134): Parameter "duty_cycle17" = "50"     Info (12134): Parameter "pll_type" = "General"     Info (12134): Parameter "pll_subtype" = "General" Info (281010): Generating sgate simulator netlist using Simgen SIMGEN_PROGRESS Start of Model generation -- 0% complete SIMGEN_PROGRESS Phase 1 : Internal Objects created -- 25% complete SIMGEN_PROGRESS Phase 2 : Connections between internal objects made -- 60% complete SIMGEN_PROGRESS Phase 3 : Netlist generated -- 100% complete Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning     Info: Peak virtual memory: 4794 megabytes     Info: Processing ended: Sat Nov 24 18:55:31 2018     Info: Elapsed time: 00:00:20     Info: Total CPU time (on all processors): 00:00:07 Info (23030): Evaluation of Tcl script run_simgen_cmd.tcl was successful Info: Quartus Prime Shell was successful. 0 errors, 0 warnings     Info: Peak virtual memory: 4667 megabytes     Info: Processing ended: Sat Nov 24 18:55:32 2018     Info: Elapsed time: 00:00:22     Info: Total CPU time (on all processors): 00:00:08
+Info: pll_0: Simgen was successful
+Info: pll_0: "dnn_accel_system" instantiated altera_pll "pll_0"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "dnn_accel_system" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "dnn_accel_system" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "dnn_accel_system" instantiated altera_reset_controller "rst_controller"
+Info: cpu: Starting RTL generation for module 'dnn_accel_system_nios2_gen2_0_cpu'
+Info: cpu:   Generation command is [exec C:/intelFPGA_lite/17.1/quartus/bin64//eperlcmd.exe -I C:/intelFPGA_lite/17.1/quartus/bin64//perl/lib -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/17.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/intelfpga_lite/17.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/intelfpga_lite/17.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/intelfpga_lite/17.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/intelfpga_lite/17.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=dnn_accel_system_nios2_gen2_0_cpu --dir=C:/Users/neufe/AppData/Local/Temp/alt7859_5445016058193078361.dir/0008_cpu_gen/ --quartus_bindir=C:/intelFPGA_lite/17.1/quartus/bin64/ --verilog --config=C:/Users/neufe/AppData/Local/Temp/alt7859_5445016058193078361.dir/0008_cpu_gen//dnn_accel_system_nios2_gen2_0_cpu_processor_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/neufe/AppData/Local/Temp/alt7859_5445016058193078361.dir/0008_cpu_gen/  ]
+Info: cpu: # 2018.11.24 18:55:42 (*) Starting Nios II generation
+Info: cpu: # 2018.11.24 18:55:42 (*)   Checking for plaintext license.
+Info: cpu: # 2018.11.24 18:55:44 (*)   Couldn't query license setup in Quartus directory C:/intelFPGA_lite/17.1/quartus/bin64/
+Info: cpu: # 2018.11.24 18:55:44 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: cpu: # 2018.11.24 18:55:44 (*)   LM_LICENSE_FILE environment variable is empty
+Info: cpu: # 2018.11.24 18:55:44 (*)   Plaintext license not found.
+Info: cpu: # 2018.11.24 18:55:44 (*)   No license required to generate encrypted Nios II/e.
+Info: cpu: # 2018.11.24 18:55:44 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2018.11.24 18:55:44 (*)   Creating all objects for CPU
+Info: cpu: # 2018.11.24 18:55:46 (*)   Creating 'C:/Users/neufe/AppData/Local/Temp/alt7859_5445016058193078361.dir/0008_cpu_gen//dnn_accel_system_nios2_gen2_0_cpu_nios2_waves.do'
+Info: cpu: # 2018.11.24 18:55:46 (*)   Generating RTL from CPU objects
+Info: cpu: # 2018.11.24 18:55:46 (*)   Creating plain-text RTL
+Info: cpu: # 2018.11.24 18:55:47 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'dnn_accel_system_nios2_gen2_0_cpu'
+Info: cpu: "nios2_gen2_0" instantiated altera_nios2_gen2_unit "cpu"
+Info: nios2_gen2_0_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "nios2_gen2_0_data_master_translator"
+Info: jtag_uart_0_avalon_jtag_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "jtag_uart_0_avalon_jtag_slave_translator"
+Info: nios2_gen2_0_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "nios2_gen2_0_data_master_agent"
+Info: jtag_uart_0_avalon_jtag_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "jtag_uart_0_avalon_jtag_slave_agent"
+Info: jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_003: "mm_interconnect_0" instantiated altera_merlin_router "router_003"
+Info: router_004: "mm_interconnect_0" instantiated altera_merlin_router "router_004"
+Info: new_sdram_controller_0_s1_burst_adapter: "mm_interconnect_0" instantiated altera_merlin_burst_adapter "new_sdram_controller_0_s1_burst_adapter"
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_001"
+Info: Reusing file C:/Users/neufe/workspace/cpen311/lab-6-chrisneuf/simulation/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file C:/Users/neufe/workspace/cpen311/lab-6-chrisneuf/simulation/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file C:/Users/neufe/workspace/cpen311/lab-6-chrisneuf/simulation/submodules/altera_merlin_arbitrator.sv
+Info: new_sdram_controller_0_s1_rsp_width_adapter: "mm_interconnect_0" instantiated altera_merlin_width_adapter "new_sdram_controller_0_s1_rsp_width_adapter"
+Info: Reusing file C:/Users/neufe/workspace/cpen311/lab-6-chrisneuf/simulation/submodules/altera_merlin_address_alignment.sv
+Info: Reusing file C:/Users/neufe/workspace/cpen311/lab-6-chrisneuf/simulation/submodules/altera_merlin_burst_uncompressor.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: avalon_st_adapter_002: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter_002"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: error_adapter_0: "avalon_st_adapter_002" instantiated error_adapter "error_adapter_0"
+Info: dnn_accel_system: Done "dnn_accel_system" with 33 modules, 61 files
+Info: qsys-generate succeeded.
+Info: Finished: Create simulation model
+Info: Starting: Create Modelsim Project.
+Info: sim-script-gen --spd=C:\Users\neufe\workspace\cpen311\lab-6-chrisneuf\dnn_accel_system.spd --output-directory=C:/Users/neufe/workspace/cpen311/lab-6-chrisneuf/simulation/ --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=C:\Users\neufe\workspace\cpen311\lab-6-chrisneuf\dnn_accel_system.spd --output-directory=C:/Users/neufe/workspace/cpen311/lab-6-chrisneuf/simulation/ --use-relative-paths=true
+Info: Generating the following file(s) for MODELSIM simulator in C:/Users/neufe/workspace/cpen311/lab-6-chrisneuf/simulation/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Generating the following file(s) for VCS simulator in C:/Users/neufe/workspace/cpen311/lab-6-chrisneuf/simulation/ directory:
+Info: 	synopsys/vcs/vcs_setup.sh
+Info: Generating the following file(s) for VCSMX simulator in C:/Users/neufe/workspace/cpen311/lab-6-chrisneuf/simulation/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for NCSIM simulator in C:/Users/neufe/workspace/cpen311/lab-6-chrisneuf/simulation/ directory:
+Info: 	cadence/cds.lib
+Info: 	cadence/hdl.var
+Info: 	cadence/ncsim_setup.sh
+Info: 	31 .cds.lib files in cadence/cds_libs/ directory
+Info: Generating the following file(s) for RIVIERA simulator in C:/Users/neufe/workspace/cpen311/lab-6-chrisneuf/simulation/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under C:/Users/neufe/workspace/cpen311/lab-6-chrisneuf/simulation/.
+Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info: Finished: Create Modelsim Project.
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate C:\intelFPGA_lite\17.1\dnn_accel_system.qsys --block-symbol-file --output-directory=C:\Users\neufe\workspace\cpen311\lab-6-chrisneuf --family="Cyclone V" --part=5CSEMA5F31C6
+Progress: Loading 17.1/dnn_accel_system.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 17.1]
+Progress: Parameterizing module clk_0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 17.1]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding new_sdram_controller_0 [altera_avalon_new_sdram_controller 17.1]
+Progress: Parameterizing module new_sdram_controller_0
+Progress: Adding nios2_gen2_0 [altera_nios2_gen2 17.1]
+Progress: Parameterizing module nios2_gen2_0
+Progress: Adding pio_0 [altera_avalon_pio 17.1]
+Progress: Parameterizing module pio_0
+Progress: Adding pll_0 [altera_pll 17.1]
+Progress: Parameterizing module pll_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: dnn_accel_system.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: dnn_accel_system.new_sdram_controller_0: SDRAM Controller will only be supported in Quartus Prime Standard Edition in the future release.
+Info: dnn_accel_system.pll_0: The legal reference clock frequency is 5.0 MHz..800.0 MHz
+Info: dnn_accel_system.pll_0: Able to implement PLL with user settings
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\intelFPGA_lite\17.1\dnn_accel_system.qsys --synthesis=VERILOG --output-directory=C:\Users\neufe\workspace\cpen311\lab-6-chrisneuf\synthesis --family="Cyclone V" --part=5CSEMA5F31C6
+Progress: Loading 17.1/dnn_accel_system.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 17.1]
+Progress: Parameterizing module clk_0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 17.1]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding new_sdram_controller_0 [altera_avalon_new_sdram_controller 17.1]
+Progress: Parameterizing module new_sdram_controller_0
+Progress: Adding nios2_gen2_0 [altera_nios2_gen2 17.1]
+Progress: Parameterizing module nios2_gen2_0
+Progress: Adding pio_0 [altera_avalon_pio 17.1]
+Progress: Parameterizing module pio_0
+Progress: Adding pll_0 [altera_pll 17.1]
+Progress: Parameterizing module pll_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: dnn_accel_system.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: dnn_accel_system.new_sdram_controller_0: SDRAM Controller will only be supported in Quartus Prime Standard Edition in the future release.
+Info: dnn_accel_system.pll_0: The legal reference clock frequency is 5.0 MHz..800.0 MHz
+Info: dnn_accel_system.pll_0: Able to implement PLL with user settings
+Info: dnn_accel_system: Generating dnn_accel_system "dnn_accel_system" for QUARTUS_SYNTH
+Info: jtag_uart_0: Starting RTL generation for module 'dnn_accel_system_jtag_uart_0'
+Info: jtag_uart_0:   Generation command is [exec C:/intelfpga_lite/17.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/17.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/17.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/intelfpga_lite/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=dnn_accel_system_jtag_uart_0 --dir=C:/Users/neufe/AppData/Local/Temp/alt7859_5445016058193078361.dir/0031_jtag_uart_0_gen/ --quartus_dir=C:/intelfpga_lite/17.1/quartus --verilog --config=C:/Users/neufe/AppData/Local/Temp/alt7859_5445016058193078361.dir/0031_jtag_uart_0_gen//dnn_accel_system_jtag_uart_0_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart_0: Done RTL generation for module 'dnn_accel_system_jtag_uart_0'
+Info: jtag_uart_0: "dnn_accel_system" instantiated altera_avalon_jtag_uart "jtag_uart_0"
+Info: new_sdram_controller_0: Starting RTL generation for module 'dnn_accel_system_new_sdram_controller_0'
+Info: new_sdram_controller_0:   Generation command is [exec C:/intelfpga_lite/17.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/17.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/17.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller -- C:/intelfpga_lite/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller/generate_rtl.pl --name=dnn_accel_system_new_sdram_controller_0 --dir=C:/Users/neufe/AppData/Local/Temp/alt7859_5445016058193078361.dir/0032_new_sdram_controller_0_gen/ --quartus_dir=C:/intelfpga_lite/17.1/quartus --verilog --config=C:/Users/neufe/AppData/Local/Temp/alt7859_5445016058193078361.dir/0032_new_sdram_controller_0_gen//dnn_accel_system_new_sdram_controller_0_component_configuration.pl  --do_build_sim=0  ]
+Info: new_sdram_controller_0: Done RTL generation for module 'dnn_accel_system_new_sdram_controller_0'
+Info: new_sdram_controller_0: "dnn_accel_system" instantiated altera_avalon_new_sdram_controller "new_sdram_controller_0"
+Info: nios2_gen2_0: "dnn_accel_system" instantiated altera_nios2_gen2 "nios2_gen2_0"
+Info: pio_0: Starting RTL generation for module 'dnn_accel_system_pio_0'
+Info: pio_0:   Generation command is [exec C:/intelfpga_lite/17.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/17.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/17.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=dnn_accel_system_pio_0 --dir=C:/Users/neufe/AppData/Local/Temp/alt7859_5445016058193078361.dir/0033_pio_0_gen/ --quartus_dir=C:/intelfpga_lite/17.1/quartus --verilog --config=C:/Users/neufe/AppData/Local/Temp/alt7859_5445016058193078361.dir/0033_pio_0_gen//dnn_accel_system_pio_0_component_configuration.pl  --do_build_sim=0  ]
+Info: pio_0: Done RTL generation for module 'dnn_accel_system_pio_0'
+Info: pio_0: "dnn_accel_system" instantiated altera_avalon_pio "pio_0"
+Info: pll_0: "dnn_accel_system" instantiated altera_pll "pll_0"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "dnn_accel_system" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "dnn_accel_system" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "dnn_accel_system" instantiated altera_reset_controller "rst_controller"
+Info: cpu: Starting RTL generation for module 'dnn_accel_system_nios2_gen2_0_cpu'
+Info: cpu:   Generation command is [exec C:/intelFPGA_lite/17.1/quartus/bin64//eperlcmd.exe -I C:/intelFPGA_lite/17.1/quartus/bin64//perl/lib -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/17.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/intelfpga_lite/17.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/intelfpga_lite/17.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/intelfpga_lite/17.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/intelfpga_lite/17.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=dnn_accel_system_nios2_gen2_0_cpu --dir=C:/Users/neufe/AppData/Local/Temp/alt7859_5445016058193078361.dir/0037_cpu_gen/ --quartus_bindir=C:/intelFPGA_lite/17.1/quartus/bin64/ --verilog --config=C:/Users/neufe/AppData/Local/Temp/alt7859_5445016058193078361.dir/0037_cpu_gen//dnn_accel_system_nios2_gen2_0_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2018.11.24 18:56:11 (*) Starting Nios II generation
+Info: cpu: # 2018.11.24 18:56:11 (*)   Checking for plaintext license.
+Info: cpu: # 2018.11.24 18:56:12 (*)   Couldn't query license setup in Quartus directory C:/intelFPGA_lite/17.1/quartus/bin64/
+Info: cpu: # 2018.11.24 18:56:12 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: cpu: # 2018.11.24 18:56:12 (*)   LM_LICENSE_FILE environment variable is empty
+Info: cpu: # 2018.11.24 18:56:12 (*)   Plaintext license not found.
+Info: cpu: # 2018.11.24 18:56:12 (*)   No license required to generate encrypted Nios II/e.
+Info: cpu: # 2018.11.24 18:56:12 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2018.11.24 18:56:12 (*)   Creating all objects for CPU
+Info: cpu: # 2018.11.24 18:56:14 (*)   Generating RTL from CPU objects
+Info: cpu: # 2018.11.24 18:56:14 (*)   Creating plain-text RTL
+Info: cpu: # 2018.11.24 18:56:15 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'dnn_accel_system_nios2_gen2_0_cpu'
+Info: cpu: "nios2_gen2_0" instantiated altera_nios2_gen2_unit "cpu"
+Info: nios2_gen2_0_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "nios2_gen2_0_data_master_translator"
+Info: jtag_uart_0_avalon_jtag_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "jtag_uart_0_avalon_jtag_slave_translator"
+Info: nios2_gen2_0_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "nios2_gen2_0_data_master_agent"
+Info: jtag_uart_0_avalon_jtag_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "jtag_uart_0_avalon_jtag_slave_agent"
+Info: jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_003: "mm_interconnect_0" instantiated altera_merlin_router "router_003"
+Info: router_004: "mm_interconnect_0" instantiated altera_merlin_router "router_004"
+Info: new_sdram_controller_0_s1_burst_adapter: "mm_interconnect_0" instantiated altera_merlin_burst_adapter "new_sdram_controller_0_s1_burst_adapter"
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_001"
+Info: Reusing file C:/Users/neufe/workspace/cpen311/lab-6-chrisneuf/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file C:/Users/neufe/workspace/cpen311/lab-6-chrisneuf/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file C:/Users/neufe/workspace/cpen311/lab-6-chrisneuf/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: new_sdram_controller_0_s1_rsp_width_adapter: "mm_interconnect_0" instantiated altera_merlin_width_adapter "new_sdram_controller_0_s1_rsp_width_adapter"
+Info: Reusing file C:/Users/neufe/workspace/cpen311/lab-6-chrisneuf/synthesis/submodules/altera_merlin_address_alignment.sv
+Info: Reusing file C:/Users/neufe/workspace/cpen311/lab-6-chrisneuf/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: avalon_st_adapter_002: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter_002"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: error_adapter_0: "avalon_st_adapter_002" instantiated error_adapter "error_adapter_0"
+Info: dnn_accel_system: Done "dnn_accel_system" with 33 modules, 55 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
