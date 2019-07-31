@@ -1,4 +1,4 @@
-# Lab 6: Deep Neural Networks
+#Deep Neural Networks
 
 ## Contents
 
